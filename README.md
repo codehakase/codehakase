@@ -1,16 +1,14 @@
-### Hi there 👋
+## Hi there 👋 , I'm Francis
 
-<!--
-**codehakase/codehakase** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+[blog](https://hakaselogs.me) | [twitter](https://twitter.com/codehakase) | [twitch](https://twitch.com/codehakase) 
 
-Here are some ideas to get you started:
+I'm a multidisciplinary software engineer with extensive experience building software spanning across various aspects of software engineering not limited to Blockchain, Fintech, IoT, Healthcare, Media and Entertainment.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+More:
+
+- 🌱 I’m currently learning Rust
+- 👯 I’m looking to collaborate on anything interesting.
+- 💬 Ask me about Golang/AWS/JS/TS/React
+- 📫 How to reach me: [@codehakase](https://twitter.com/codehakase)
+- 😄 Pronouns: he/him
+- ⚡ Fun fact: I play the piano when I'm not on my devices
