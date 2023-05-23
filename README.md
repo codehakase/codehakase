@@ -1,6 +1,6 @@
 ## Hi there 👋 , I'm Francis
 
-[blog](https://hakaselogs.me) | [twitter](https://twitter.com/codehakase) | [twitch](https://twitch.com/codehakase) 
+[blog](https://codehakase.com/blog) | [twitter](https://twitter.com/codehakase) | [twitch](https://twitch.com/codehakase) 
 
 I'm a multidisciplinary software engineer with extensive experience building software spanning across various aspects of software engineering not limited to Blockchain, Fintech, IoT, Healthcare, Media and Entertainment.
 
