@@ -6,7 +6,7 @@ I'm a multidisciplinary software engineer with extensive experience building sof
 
 More:
 
-- 🌱  I’m currently learning Rust
+- 🌱  I’m currently learning Haskell
 - 👯  I’m looking to collaborate on anything interesting.
 - 💬  Ask me about Golang/AWS/JS/TS/React
 - 📫  How to reach me: [@codehakase](https://twitter.com/codehakase)
