@@ -1,0 +1,47 @@
+name: codehakase-com
+on:
+  push:
+    branches: [ master ]
+
+  schedule:
+    - cron: "0 */6 * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  gen_build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Go
+        uses: actions/setup-go@v4 
+        with:
+          cache: true
+          check-latest: true
+          go-version-file: "up/go.mod"
+          cache-dependency-path: "up/go.sum"
+
+      - name: Generate Readme file
+        run: go run main.go > ../README.md
+        working-directory: ./up
+
+      - name: Configure Git user
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+      - name: Commit and push changes
+        run: |
+          git add README.md
+          if ! git diff --staged --quiet; then
+            echo "Changes detected in README.md. Committing..."
+            git commit -m "docs: Auto-update README.md via GitHub Actions"
+            git push
+          else
+            echo "No changes detected in README.md. Nothing to commit."
+          fi
