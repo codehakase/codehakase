@@ -14,7 +14,7 @@ import (
 	"golang.org/x/sync/errgroup"
 )
 
-const rssSource = "https://codehakase.com/blog/index.xml"
+const baseURL = "https://codehakase.com"
 
 var locale = mustLoadLocale("Africa/Lagos")
 
@@ -33,7 +33,8 @@ type Item struct {
 }
 
 type ReadmeInfo struct {
-	Posts []*Item
+	Posts  []*Item
+	Shorts []*Item
 }
 
 type customTime struct {
@@ -123,7 +124,13 @@ func main() {
 
 	errGroup.Go(func() error {
 		var err error
-		readmeInfo.Posts, err = fetchRSSFeed(ctx, rssSource)
+		readmeInfo.Posts, err = fetchRSSFeed(ctx, fmt.Sprintf("%s/blog/index.xml", baseURL))
+		return err
+	})
+
+	errGroup.Go(func() error {
+		var err error
+		readmeInfo.Shorts, err = fetchRSSFeed(ctx, fmt.Sprintf("%s/shorts/index.xml", baseURL))
 		return err
 	})
 
