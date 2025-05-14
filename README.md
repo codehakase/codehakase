@@ -18,11 +18,11 @@ I publish articles on my [blog](https://codehakase.com/blog):
 
 As often as I can, I publish short-form content and quick notes called [shorts](https://codehakase.com/shorts):
 
+- 🔖 [TTYs](https://codehakase.com/shorts/ttys/) <sub><em>- May 13, 2025</em></sub>
 - 🔖 [GADTs for Type-Level Domain Logic](https://codehakase.com/shorts/gadts-for-type-level-domain-logic/) <sub><em>- May 7, 2025</em></sub>
 - 🔖 [Composable Parsers with Attoparsec](https://codehakase.com/shorts/composable-parsers-with-attoparsec/) <sub><em>- May 6, 2025</em></sub>
 - 🔖 [Implementing Non-Copyable Embedded Structs](https://codehakase.com/shorts/implementing-non-copyable-embedded-structs/) <sub><em>- May 6, 2025</em></sub>
 - 🔖 [Tmux sessionizer](https://codehakase.com/shorts/tmux-sessionizer/) <sub><em>- May 5, 2025</em></sub>
-- 🔖 [Scripting a self-updating Github Readme](https://codehakase.com/shorts/scripting-a-self-updating-github-readme/) <sub><em>- May 1, 2025</em></sub>
 
 ---
 
