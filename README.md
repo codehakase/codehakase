@@ -8,7 +8,7 @@ You can read more about me on my [personal website](https://codehakase.com/about
 
 I publish articles on my [blog](https://codehakase.com/blog):
 
-- 📰 [Maps Don&amp;#39;t Shrink in Go](https://codehakase.com/blog/maps-dont-shrink-in-go/) <sub><em>- May 27, 2025</em></sub>
+- 📰 [Maps Don't Shrink in Go](https://codehakase.com/blog/maps-dont-shrink-in-go/) <sub><em>- May 27, 2025</em></sub>
 - 📰 [Notes on building a coding agent](https://codehakase.com/blog/notes-on-building-a-coding-agent/) <sub><em>- April 25, 2025</em></sub>
 - 📰 [Functors: Identity, Composition, and fmap](https://codehakase.com/blog/functors-identity-composition-and-fmap/) <sub><em>- March 26, 2025</em></sub>
 - 📰 [Largest product in a series](https://codehakase.com/blog/largest-product-in-a-series/) <sub><em>- February 7, 2025</em></sub>
@@ -18,7 +18,7 @@ I publish articles on my [blog](https://codehakase.com/blog):
 
 As often as I can, I publish short-form content and quick notes called [shorts](https://codehakase.com/shorts):
 
-- 🔖 [import &amp;#34;reflect&amp;#34;](https://codehakase.com/shorts/import-reflect/) <sub><em>- June 10, 2025</em></sub>
+- 🔖 [import "reflect"](https://codehakase.com/shorts/import-reflect/) <sub><em>- June 10, 2025</em></sub>
 - 🔖 [TTYs](https://codehakase.com/shorts/ttys/) <sub><em>- May 13, 2025</em></sub>
 - 🔖 [GADTs for Type-Level Domain Logic](https://codehakase.com/shorts/gadts-for-type-level-domain-logic/) <sub><em>- May 7, 2025</em></sub>
 - 🔖 [Composable Parsers with Attoparsec](https://codehakase.com/shorts/composable-parsers-with-attoparsec/) <sub><em>- May 6, 2025</em></sub>
