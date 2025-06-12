@@ -4,11 +4,11 @@ import (
 	"context"
 	"encoding/xml"
 	"fmt"
-	"html/template"
 	"io"
 	"log"
 	"net/http"
 	"os"
+	"text/template"
 	"time"
 
 	"golang.org/x/sync/errgroup"
@@ -105,7 +105,6 @@ func renderTemplate(data *ReadmeInfo) error {
 	tmpl := template.Must(
 		template.New("readme_tmpl").Funcs(template.FuncMap{
 			"FormatTime": formatTime,
-			"HTMLEscape": template.HTMLEscapeString,
 		}).ParseFiles("README.md.tmpl"))
 
 	if err := tmpl.ExecuteTemplate(os.Stdout, "README.md.tmpl", data); err != nil {

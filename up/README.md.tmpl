@@ -8,14 +8,14 @@ You can read more about me on my [personal website](https://codehakase.com/about
 
 I publish articles on my [blog](https://codehakase.com/blog):
 {{ range (slice .Posts 0 5) }}
-- 📰 [{{ HTMLEscape .Title }}]({{ .Link }}) <sub><em>- {{ FormatTime .PublishedAt }}</em></sub>
+- 📰 [{{ .Title }}]({{ .Link }}) <sub><em>- {{ FormatTime .PublishedAt }}</em></sub>
 {{- end }}
 
 ---
 
 As often as I can, I publish short-form content and quick notes called [shorts](https://codehakase.com/shorts):
 {{ range (slice .Shorts 0 5) }}
-- 🔖 [{{ HTMLEscape .Title }}]({{ .Link }}) <sub><em>- {{ FormatTime .PublishedAt }}</em></sub>
+- 🔖 [{{ .Title }}]({{ .Link }}) <sub><em>- {{ FormatTime .PublishedAt }}</em></sub>
 {{- end }}
 
 ---
