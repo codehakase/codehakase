@@ -18,11 +18,11 @@ I publish articles on my [blog](https://codehakase.com/blog):
 
 As often as I can, I publish short-form content and quick notes called [shorts](https://codehakase.com/shorts):
 
+- 🔖 [Parsing, Not Guessing](https://codehakase.com/shorts/parsing-not-guessing/) <sub><em>- June 14, 2025</em></sub>
 - 🔖 [import "reflect"](https://codehakase.com/shorts/import-reflect/) <sub><em>- June 10, 2025</em></sub>
 - 🔖 [TTYs](https://codehakase.com/shorts/ttys/) <sub><em>- May 13, 2025</em></sub>
 - 🔖 [GADTs for Type-Level Domain Logic](https://codehakase.com/shorts/gadts-for-type-level-domain-logic/) <sub><em>- May 7, 2025</em></sub>
 - 🔖 [Composable Parsers with Attoparsec](https://codehakase.com/shorts/composable-parsers-with-attoparsec/) <sub><em>- May 6, 2025</em></sub>
-- 🔖 [Implementing Non-Copyable Embedded Structs](https://codehakase.com/shorts/implementing-non-copyable-embedded-structs/) <sub><em>- May 6, 2025</em></sub>
 
 ---
 
