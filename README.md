@@ -8,11 +8,11 @@ You can read more about me on my [personal website](https://codehakase.com/about
 
 I publish articles on my [blog](https://codehakase.com/blog):
 
+- 📰 [Idiomatic Haskell Refactors](https://codehakase.com/blog/idiomatic-haskell-refactors/) <sub><em>- October 19, 2025</em></sub>
 - 📰 [Maps Don't Shrink in Go](https://codehakase.com/blog/maps-dont-shrink-in-go/) <sub><em>- May 27, 2025</em></sub>
 - 📰 [Notes on building a coding agent](https://codehakase.com/blog/notes-on-building-a-coding-agent/) <sub><em>- April 25, 2025</em></sub>
 - 📰 [Functors: Identity, Composition, and fmap](https://codehakase.com/blog/functors-identity-composition-and-fmap/) <sub><em>- March 26, 2025</em></sub>
 - 📰 [Largest product in a series](https://codehakase.com/blog/largest-product-in-a-series/) <sub><em>- February 7, 2025</em></sub>
-- 📰 [Working with JSON in Go](https://codehakase.com/blog/working-with-json-in-go/) <sub><em>- May 3, 2021</em></sub>
 
 ---
 
