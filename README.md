@@ -8,11 +8,11 @@ You can read more about me on my [personal website](https://codehakase.com/about
 
 I publish articles on my [blog](https://codehakase.com/blog):
 
+- 📰 [The Database Is a Cache](https://codehakase.com/blog/the-database-is-a-cache/) <sub><em>- March 3, 2026</em></sub>
 - 📰 [Bounded Execution for AI Coding Agents](https://codehakase.com/blog/bounded-execution-for-ai-coding-agents/) <sub><em>- January 9, 2026</em></sub>
 - 📰 [Idiomatic Haskell Refactors](https://codehakase.com/blog/idiomatic-haskell-refactors/) <sub><em>- October 19, 2025</em></sub>
 - 📰 [Maps Don't Shrink in Go](https://codehakase.com/blog/maps-dont-shrink-in-go/) <sub><em>- May 27, 2025</em></sub>
 - 📰 [Notes on building a coding agent](https://codehakase.com/blog/notes-on-building-a-coding-agent/) <sub><em>- April 25, 2025</em></sub>
-- 📰 [Functors: Identity, Composition, and fmap](https://codehakase.com/blog/functors-identity-composition-and-fmap/) <sub><em>- March 26, 2025</em></sub>
 
 ---
 
