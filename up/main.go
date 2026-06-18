@@ -10,8 +10,6 @@ import (
 	"os"
 	"text/template"
 	"time"
-
-	"golang.org/x/sync/errgroup"
 )
 
 const baseURL = "https://codehakase.com"
@@ -33,8 +31,7 @@ type Item struct {
 }
 
 type ReadmeInfo struct {
-	Posts  []*Item
-	Shorts []*Item
+	Posts []*Item
 }
 
 type customTime struct {
@@ -116,26 +113,14 @@ func renderTemplate(data *ReadmeInfo) error {
 
 func main() {
 	ctx := context.Background()
+
 	var readmeInfo ReadmeInfo
-
-	errGroup, ctx := errgroup.WithContext(ctx)
-	errGroup.SetLimit(5)
-
-	errGroup.Go(func() error {
-		var err error
-		readmeInfo.Posts, err = fetchRSSFeed(ctx, fmt.Sprintf("%s/blog/index.xml", baseURL))
-		return err
-	})
-
-	errGroup.Go(func() error {
-		var err error
-		readmeInfo.Shorts, err = fetchRSSFeed(ctx, fmt.Sprintf("%s/shorts/index.xml", baseURL))
-		return err
-	})
-
-	if err := errGroup.Wait(); err != nil {
+	posts, err := fetchRSSFeed(ctx, fmt.Sprintf("%s/blog/index.xml", baseURL))
+	if err != nil {
 		log.Fatalf("failed to fetch feed data: %+v\n", err)
+		return
 	}
+	readmeInfo.Posts = posts
 
 	if err := renderTemplate(&readmeInfo); err != nil {
 		log.Fatalf("failed to render readme, errr: %+v", err)
